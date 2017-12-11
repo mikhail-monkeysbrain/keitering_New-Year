@@ -1,0 +1,91 @@
+//*POLEVOY.SERGEY*\\
+//*2016-2017*\\
+//*Разработка шаблона по ГОСТУ*\\
+//*http://infoinstant.ru/*\\
+//*Авторство прошу не удалять!*\\
+//*По всем вопросам прошу писать*\\
+//*polevoy.sergey@hotmail.com**\\
+//
+//
+//
+//Файл-включает глобальные стили\\
+//Глобальный размер шрифтов
+/*$base-font-size:22px!global;
+$base-line-height:20px!global;
+$rhythm-unit:"rem" !global;
+$grid-background-baseline-color:rgba(110, 110, 110, 0.65);
+$rem-with-px-fallback: true !global;
+@include establish-baseline;
+//Под разное разрешение экранов
+@media only screen and(min-width:240px) and (max-width:480px) {
+    $base-font-size: 12px!global;
+    $base-line-height: 18px!global;
+    $rhythm-unit: "rem";
+    $grid-background-baseline-color: rgba(110, 110, 110, 0.65);
+    @include establish-baseline;
+}
+
+@media only screen and(min-width:480px) and (max-width:760px) {
+    $base-font-size: 12px!global;
+    $base-line-height: 18px!global;
+    $rhythm-unit: "rem";
+    $grid-background-baseline-color: rgba(110, 110, 110, 0.65);
+    @include establish-baseline;
+}
+@media only screen and(min-width:760px) and (max-width:1000px) {
+    $base-font-size: 14px!global;
+    $base-line-height: 21px!global;
+    $rhythm-unit: "rem";
+    $grid-background-baseline-color: rgba(110, 110, 110, 0.65);
+    @include establish-baseline;
+}
+
+@media only screen and(min-width:1000px) and (max-width:1157px) {
+    $base-font-size: 14px!global;
+    $base-line-height: 21px!global;
+    $rhythm-unit: "rem";
+    $grid-background-baseline-color: rgba(110, 110, 110, 0.65);
+    @include establish-baseline;
+}
+@media only screen and(min-width:1157px) and (max-width:1460px) {
+    $base-font-size: 16px!global;
+    $base-line-height: 19px!global;
+    $rhythm-unit: "rem";
+    $grid-background-baseline-color: rgba(110, 110, 110, 0.65);
+    @include establish-baseline;
+}*/
+html{
+	font-size: 1vw;
+}
+body{
+	color: #fff;
+	//min-width: 1200px;
+}
+
+//Global Element options
+img,
+iframe {
+    margin: auto;
+    display: block;
+    @include rhythm-margins(1);
+}
+a,button{
+	cursor: pointer;
+}
+button{
+	&:hover{
+		opacity: .8;
+	}
+}
+a{
+        text-decoration: none;
+        color:  #140e0e;
+	/*&:hover{
+        cursor: pointer;
+        -webkit-box-shadow: -2px 0px 13px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -2px 0px 13px -1px rgba(0,0,0,0.75);
+        box-shadow: -2px 0px 13px -1px rgba(0,0,0,0.75);
+    }*/
+    }
+
+

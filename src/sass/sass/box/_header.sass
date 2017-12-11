@@ -1,0 +1,51 @@
+.header
+	.middle
+		@extend .f_n-s_c_s
+	&_logo
+		//width: 16.5rem
+		padding-top: 1.1rem
+		padding-left: 1.2rem
+	&_menu
+		ul
+			@extend .f_n-s_c_s
+			-webkit-box-pack: center
+			-moz-box-pack: center
+			-webkit-justify-content: center
+			-ms-flex-pack: center
+			justify-content: center
+			font-family: $calibri
+			font-size: 20px
+			padding-top: 0.5rem
+			li
+				&:after
+					content: '|'
+					float: right
+				&:last-child
+					&:after
+						display: none
+			a
+				text-transform: uppercase
+				padding-left: 0.5rem
+				padding-right: 0.5rem
+	&_info-block
+		padding-top: 2.5rem
+		a
+			padding-left: 0.3rem
+			text-decoration: none
+			font-weight: bold
+			font-size: 30px
+			text-align: left
+			color: #91ad39
+			width: 100%
+			display: block
+		button
+			font-family: $calibri
+			background: transparent
+			border: 0
+			background: #eda802
+			width: 11.5rem
+			margin: 0.4rem auto 0
+			display: block
+			border-radius: 20px
+			font-size: 30px
+			color: #fff

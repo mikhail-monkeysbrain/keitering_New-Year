@@ -1,0 +1,50 @@
+h2.part-job_h2
+	font-family: $bebas
+	font-size: 60px
+	font-weight: 400
+	text-transform: uppercase
+	text-align: center
+	padding-top: 2.5rem
+	padding-bottom: 1.5rem
+.part-job
+	background-image: url(../../img/bg_job.jpg)
+	&_info-box
+		@extend .flex-center_full
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		padding-top: 5rem
+		margin-top: 1rem
+		background-image: url(../../img/curcl_border.png)
+		background-position: center 52%
+		background-repeat: no-repeat
+	.element
+		width: $span*3+$gutter*3
+		margin-left: $span*.2
+		margin-right: $span*.2
+		margin-bottom: 2rem
+		p
+			text-align: center
+			text-transform: uppercase
+			font-size: 30px
+			font-weight: 700
+			color: #fff
+			min-height: 2rem
+		img
+			width: auto
+			max-width: 100%
+		&_min
+			border-radius: 50px
+			background: #fff
+			width: $span*0.4
+			height: $span*0.4
+			margin-top: -5rem
+
+.middle__flex
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content flex-start
+	justify-content space-between

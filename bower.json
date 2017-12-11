@@ -1,0 +1,19 @@
+{
+  "name": "sdk-lab",
+  "description": "sdk-lab",
+  "main": "index.js",
+  "authors": [
+    "POLEVOY"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/libs/",
+    "test",
+    "tests"
+  ]
+}
